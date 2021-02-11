@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Leonel Andrés Polanía Arias</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Leonel Andrés</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#interests">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#academics">Academics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <article id="banner">
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+            <div class="row row-cols-*">
+                <div class="col">
+                    <img src="images/profile_picture.jpg" class="rounded-circle" width="310"
+                         alt="Leonel and his sister">
+                </div>
+                <div class="col" id="welcome-container">
+                    <h1> Leonel Andrés Polanía Arias</h1>
+                    <p id="welcome-message">Welcome to my personal website. I just finished my studies of Electronic
+                        Engineering at
+                        Universidad de los Andes. Currently, I am a student of Systems and Computing Engineering.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </article>
+    <article id="about">
+        <h2>About me</h2>
+
+    </article>
+    <article id="interests">
+        <h2> Interests and Hobbies</h2>
+
+    </article>
+    <article id="academics">
+        <h2> Academics </h2>
+        <div class="card academic">
+            <div class="card-header">
+                Electronic Engineering
+            </div>
+            <div class="card-body">
+                I studied Electronic Engineering at Universidad de los Andes, Bogotá D.C.
+            </div>
+            <div class="card-footer text-muted">
+                2017 - 2020
+            </div>
+        </div>
+
+        <div class="card academic">
+            <div class="card-header">
+                Systems and Computing Engineering>
+            </div>
+            <div class="card-body">
+                Currently, I study Systems and Computing Engineeringg at Universidad de los Andes, Bogotá D.C.
+            </div>
+            <div class="card-footer text-muted">
+                2017 - 2021
+            </div>
+        </div>
+
+    </article>
+    <article id="experience">
+        <h2> Experience and Skills </h2>
+
+    </article>
+    <article id="projects">
+        <h2> Projects</h2>
+        <div class="container-fluid ">
+            <div class="card project">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/road_fighter.jpg" class="img-fluid" height="300"
+                             alt="Road fighter game illustration">
+                    </div>
+                    <div class="col-md-8">
+                        <h3>Road Fighter</h3>
+                        <p> Road Fighter game programmed in a led matrix which can be played using physical buttons.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card project">
+                <div class="row">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/corticos.png" height="200" class="img-fluid"
+                                 alt="Corticos website logo. Design by Santiago Forero.">
+                        </div>
+                        <div class="col-md-8">
+                            <h3>Corticos</h3>
+                            <p> Website where independent filmmakers can upload their film shorts in order to sell them
+                                o just to share with a wide audience. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card project">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/robot_simulation.png" class="img-fluid" alt="Robot simulation">
+                </div>
+                <div class="col-md-8">
+                    <h3>Drawing Robot</h3>
+                    <p> Programmed using ROS and simulated using V-REP. The robot is able to plan and follow a route
+                        given source and destination. Its computational vision capabilities alows it to count color
+                        balls it founds in the path. At the end of the path, the robot draws a predefined figure in the
+                        floor.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </article>
+    <article id="contact">
+        <h2>Contact me</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Your message</label>
+                <textarea id="message" class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </article>
+
+</main>
+
+<footer class="text-muted bg-light">
+    <hr>
+    <div class="container" id="social-networks">
+        <div class="row row-cols-5">
+            <div class="col">
+                <a class="link-dark" href="mailto:la.polania@uniandes.edu.co"> <img src="icons/envelope.svg" width="20"
+                                                                                    height="20"> mail</a>
+            </div>
+
+            <div class="col">
+                <a class="link-dark" href="https://www.facebook.com/leonel.polania/"> <img src="icons/facebook.svg"
+                                                                                           width="20" height="20">
+                    leonel.polania</a>
+            </div>
+            <div class="col">
+                <a class="link-dark" href="https://www.instagram.com/andres.lpa"> <img src="icons/instagram.svg"
+                                                                                       width="20" height="20">
+                    andres.lpa</a>
+            </div>
+            <div class="col">
+                <a class="link-dark"
+                   href="https://www.linkedin.com/in/leonel-andr%C3%A9s-polan%C3%ADa-arias-a06b10188/?locale=en_US"><img
+                        src="icons/linkedin.svg" width="20" height="20"> LinkedIn </a>
+            </div>
+            <div class="col">
+                <a class="link-dark" href="https://github.com/andreslpa"><img src="icons/github.svg" width="20"
+                                                                              height="20"> andreslpa </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="container text-center">
+        <p> 2021 Leonel Andrés Polanía Arias</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+</html>
