@@ -1,4 +1,20 @@
 /*
+Revisión realizada por Lina Cardozo
+
+Comentario 1: Habían partes del código que no estaban bien indentadas.
+Aconsejo usar Prettier para que, a medida que se guarden cambios, el código
+se indente correctamente.
+
+Comentario 2: El diseño de la página es estético. La combinación de colores
+es adecuada, los bloques dentro de la página están bien definidos y son 
+simétricos, no se usan más de 2 tipos de letra, las imágenes y videos se ven
+claramente, y la página es responsive. Es posible navegar consistentemente
+dentro de la página.
+
+Comentario 3: El nombrado de las reglas de CSS es correcto y descriptivo.
+*/
+
+/*
 Revisión hecha por Julián Jaimes
 
 Comentarios: El código está bien indentado y es legible.
@@ -17,39 +33,38 @@ La tipografía es adecuada.
     -La consistencia del estilo se puede ver en toda la pagina
 */
 
-
-main{
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+main {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
-article{
-    margin: 5%;
-    text-align: left;
+article {
+  margin: 5%;
+  text-align: left;
 }
-.academic{
-    margin-top: 2.5%;
+.academic {
+  margin-top: 2.5%;
 }
-.project{
-    margin-top: 2.5%;
+.project {
+  margin-top: 2.5%;
 }
 .vertical-center {
-    min-height: 100%;
-    display: flex;
-    align-items: center;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
 }
-#banner{
-    vertical-align: central;
-    margin: unset;
-    margin-top: 10%;
+#banner {
+  vertical-align: central;
+  margin: unset;
+  margin-top: 10%;
 }
-#welcome-container{
-    margin-top: 5%;
+#welcome-container {
+  margin-top: 5%;
 }
-#welcome-message{
-    text-align: left;
+#welcome-message {
+  text-align: left;
 }
-#social-networks{
-    margin-top: fill;
-    margin-bottom: 1%;
+#social-networks {
+  margin-top: fill;
+  margin-bottom: 1%;
 }
